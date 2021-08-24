@@ -1,4 +1,4 @@
 export declare class PromController {
-    index(): Promise<string>;
+    index(): string;
     static forRoot(path?: string): typeof PromController;
 }
